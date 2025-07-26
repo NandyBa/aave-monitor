@@ -34,7 +34,7 @@ const USER_CONFIG = {
   darkMode: true,
 
   // Logo settings
-  showLogo: true, // Show network logo
+  showLogo: false, // Show network logo
   logoSize: 28, // Logo size in pixels
   cacheLogo: true, // Cache logos for offline use
 
@@ -82,6 +82,14 @@ const NETWORKS = {
     logoUrl:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/info/logo.png",
     chainId: 137,
+  },
+  celo: {
+    name: "Celo",
+    contractAddress: "0x3E59A31363E2ad014dcbc521c4a0d5757d9f3402",
+    rpcUrl: "https://celo-rpc.publicnode.com",
+    logoUrl:
+      "https://d2j9klt7rsw34c.cloudfront.net/frontend/cms/logo/a673a5bf-effe-464e-a6ec-bdc7c11b2080.png",
+    chainId: 42220,
   },
   avalanche: {
     name: "Avalanche",

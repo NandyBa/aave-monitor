@@ -10,13 +10,20 @@
 const USER_CONFIG = {
   addresses: [
     {
-      address: "0xe9dC0C1508619557bE43c79Ec867cb1d6b25aeFa", // Replace with your address
+      // #0 address
+      address: "0xcF2C310273e9BfcB4BEF6d194012cdD526d1D72a",
       network: "ethereum",
-      label: "Demo Core Market", // Optional label for identification
+      label: "Vivoria Ethena", // Optional label for identification
+    },
+    {
+      // #1 address
+      address: "0x42d8a94514D61D074b62f41ccaD280EfB7Ed69A6",
+      network: "celo",
+      label: "Vivoria Celo",
     },
   ],
 
-  primaryAddressIndex: 0,
+  primaryAddressIndex: 1,
 
   // Health factor thresholds for color coding
   warningThreshold: 2.999, // Orange warning below this value
@@ -79,6 +86,14 @@ const NETWORKS = {
     logoUrl:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/info/logo.png",
     chainId: 137,
+  },
+  celo: {
+    name: "Celo",
+    contractAddress: "0x3E59A31363E2ad014dcbc521c4a0d5757d9f3402",
+    rpcUrl: "https://celo-rpc.publicnode.com",
+    logoUrl:
+      "https://d2j9klt7rsw34c.cloudfront.net/frontend/cms/logo/a673a5bf-effe-464e-a6ec-bdc7c11b2080.png",
+    chainId: 42220,
   },
   avalanche: {
     name: "Avalanche",

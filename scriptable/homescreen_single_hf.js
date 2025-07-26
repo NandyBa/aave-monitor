@@ -79,6 +79,14 @@ const NETWORKS = {
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/info/logo.png",
     chainId: 137,
   },
+  celo: {
+    name: "Celo",
+    contractAddress: "0x3E59A31363E2ad014dcbc521c4a0d5757d9f3402",
+    rpcUrl: "https://celo-rpc.publicnode.com",
+    logoUrl:
+      "https://d2j9klt7rsw34c.cloudfront.net/frontend/cms/logo/a673a5bf-effe-464e-a6ec-bdc7c11b2080.png",
+    chainId: 42220,
+  },
   avalanche: {
     name: "Avalanche",
     contractAddress: "0x794a61358D6845594F94dc1DB02A252b5b4814aD", // AAVE V3 Pool
