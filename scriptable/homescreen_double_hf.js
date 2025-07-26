@@ -11,15 +11,15 @@ const USER_CONFIG = {
   addresses: [
     {
       // #0 address
-      address: "0xe9dC0C1508619557bE43c79Ec867cb1d6b25aeFa", // Replace with your address
+      address: "0xcF2C310273e9BfcB4BEF6d194012cdD526d1D72a",
       network: "ethereum",
-      label: "Demo Core Market", // Optional label for identification
+      label: "Vivoria Ethena", // Optional label for identification
     },
     {
       // #1 address
-      address: "0xFe13988736d95D052C2E45e5b4E1Ef2e2750b7F4", // Replace with your address
-      network: "gnosis",
-      label: "Demo Gnosis Market", // Optional label for identification
+      address: "0x42d8a94514D61D074b62f41ccaD280EfB7Ed69A6",
+      network: "celo",
+      label: "Vivoria Celo",
     },
   ],
 
